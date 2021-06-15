@@ -82,6 +82,7 @@ module.exports = {
     const contentPreviewDraft = await service.findOne({
       ...query,
       id,
+      _publicationState: "preview"
     });
 
     if (contentPreviewDraft) {
