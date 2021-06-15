@@ -67,7 +67,7 @@ module.exports = function () { return __awaiter(_this, void 0, void 0, function 
                 _a.label = 3;
             case 3:
                 actionProvider = global.strapi.admin.services.permission.actionProvider;
-                actionProvider.registerMany(actions);
+                actionProvider.register(actions);
                 return [2 /*return*/];
         }
     });
