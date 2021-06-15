@@ -113,14 +113,3 @@ coverage
 exports
 .cache
 build
-
-
-############################
-# Strapi PLUGIN DIST
-############################
-/config
-/controllers
-/middlewares
-/models
-/services
-/admin
